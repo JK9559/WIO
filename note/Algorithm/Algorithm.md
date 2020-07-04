@@ -1,7 +1,5 @@
-### 优先复习题目
+### 算法类
 ----
+* [LeetCode](https://github.com/JK9559/WIO/blob/master/note/Algorithm/LeetCode/LeetCode.md)
 
-#### LeetCode
-| 题目                                               | 难度 | 涉及知识点  | 优先级 |
-| ------------------------------------------------ | -- | ---- | ---- |
-| [21. 合并两个有序链表]()            | 简单  | 有序合并  | 高 |
+* [剑指Offer](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/ToOffer.md)
