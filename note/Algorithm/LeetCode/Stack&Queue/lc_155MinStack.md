@@ -24,13 +24,6 @@
   minStack.top();      --> 返回 0.
   minStack.getMin();   --> 返回 -2.
 ```
->**示例2：**
-```
-输入：
-  "([)]"
-输出：
-  false
-```
 
 ```java
 // Java版
