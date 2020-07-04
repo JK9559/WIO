@@ -6,3 +6,4 @@
 | [25. K 个一组翻转链表](https://github.com/JK9559/WIO/blob/master/note/Algorithm/LeetCode/LinkedList/lc_25ReverseNodesink-Group.md)            | 困难  | 链表交换  |
 | [92. 反转链表 II](https://github.com/JK9559/WIO/blob/master/note/Algorithm/LeetCode/LinkedList/lc_92ReverseLinkedListII.md)            | 中等  | 链表交换  |
 | [206. 反转链表](https://github.com/JK9559/WIO/blob/master/note/Algorithm/LeetCode/LinkedList/lc_206ReverseLinkedList.md)            | 简单  | 链表交换  |
+| [大数计算-待处理]()            | 未知  | 大数计算  |
