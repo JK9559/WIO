@@ -7,3 +7,4 @@
 | [回溯](https://github.com/JK9559/WIO/blob/master/note/Algorithm/LeetCode/Backtracking/LeetCode-Backtracking.md)            | 0
 | [排序思想](https://github.com/JK9559/WIO/blob/master/note/Algorithm/LeetCode/Sort/LeetCode-Sort.md)            | 0
 | [并查集](https://github.com/JK9559/WIO/blob/master/note/Algorithm/LeetCode/UnionFind/LeetCode-UnionFind.md)            | 0
+| [查找](https://github.com/JK9559/WIO/blob/master/note/Algorithm/LeetCode/Search/LeetCode-Search.md)            | 0
