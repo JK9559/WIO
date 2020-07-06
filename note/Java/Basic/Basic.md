@@ -28,3 +28,27 @@
         + 会转为内嵌调用提高效率
         + 类中的 ```private``` 方法默认是 ```final``` 的。
     + ```final``` 类：说明该类不能继承。```final``` 类的全部成员方法都是 ```final``` 的。
+12. ```Java``` 的异常：
+    + 所有的异常都继承于 *```Throwable```* 类
+    + 可以分为两类：
+        + ```Error```：错误。程序无法处理，比如：```StackOverflowError``` 等。
+        + ```Exception```：异常。程序可以处理，比如：
+            + ```IOException``` ：如 ```FileNotFoundException```
+            + ```RuntimeException``` ：如 ```NullPointerException```
+    + ```Throwable``` 常用方法：
+        + ```String getMessage()``` *返回异常发生的简要描述*
+        + ```String toString()``` *返回异常发生的详细描述*
+        + ```void printStackTrace()``` *在控制台打印 ```Throwable``` 封装的异常信息*
+        + ```String getLocalizedMessage()``` *返回异常对象的本地化信息。只有覆盖这个方法才行，不然和 ```getMessage``` 一样*。
+13. ```try-catch-finally```
+    + ```try```： 后接 0 个或者 多个 ```catch```。如果没有 ```catch``` 则必有 ```finally```。
+    + ```catch```：处理 ```try``` 的异常。
+    + ```finally```：理论上必执行，即使 ```try``` 或者 ```catch``` 有 ```return```， ```finally``` 也会在返回前被执行。
+        + 但是 ```finally``` 在以下四种情况也不会被执行：
+            + ```finally``` 块上来就发生了异常
+            + 前面代码执行了 ```System.exit``` 来退出程序
+            + 程序所在线程死亡
+            + ```CPU``` 被关闭
+14. 深拷贝和浅拷贝：
+    + 浅拷贝：基本类型值传递，引用类型传递引用的拷贝。
+    + 深拷贝：基本类型值传递，引用类型新创建对象，再复制内容。
