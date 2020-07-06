@@ -72,7 +72,7 @@ public class Solution {
 // 空间复杂度： O(mn) m n分别为word1 word2的长度
 // 时间复杂度： O(mn)
 ```
-```golang
+```go
 // golang版
 func minDistance(word1 string, word2 string) int {
 	n1, n2 := len(word1), len(word2)

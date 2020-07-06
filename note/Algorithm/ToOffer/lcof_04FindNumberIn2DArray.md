@@ -41,8 +41,8 @@ class Solution {
 // 空间复杂度： O(1)
 // 时间复杂度： O(n+m) 矩形的长 宽
 ```
-```golang
-// Golang版
+```go
+// golang版
 func findNumberIn2DArray(matrix [][]int, target int) bool {
 	if len(matrix) <= 0 || len(matrix[0]) <= 0 {
 		return false

@@ -55,7 +55,7 @@ public class Solution {
 ```java
 // dp
 ```
-```golang
+```go
 // golang版
 func longestValidParentheses(s string) int {
 	if len(s) <= 0 {

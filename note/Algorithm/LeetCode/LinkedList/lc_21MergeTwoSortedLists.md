@@ -41,7 +41,7 @@ public class Solution {
 }
 // 时间复杂度 O(m+n) 空间复杂度 O(1)
 ```
-```golang
+```go
 // golang版
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
     if l1 == nil {
