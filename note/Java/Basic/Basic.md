@@ -19,7 +19,7 @@
    + 如果 ```hashcode``` 相同，那么， ```equals``` 不一定为 ```true``` 。
    + 如果 ```equals``` 覆盖过，那么， ```hashcode``` 必须覆盖。
    + ```hashcode``` 只在散列表中有用。
-10. ![线程状态图](https://github.com/JK9559/WIO/blob/master/note/Java/Basic/ThreadStstus.png)
+10. ![线程状态图](https://github.com/JK9559/WIO/blob/master/note/Java/Basic/ThreadStatus.png)
 11. ```final``` 使用方法总结：
     + ```final``` 能用在：变量上、方法上、类上
     + ```final``` 变量：基本类型上，值不能改。引用类型上，初始化后不能指向另一个对象。
