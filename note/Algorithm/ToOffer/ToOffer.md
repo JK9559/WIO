@@ -15,3 +15,5 @@
 | [剑指 Offer 14-II. 剪绳子II](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_14IICuttingRope.md)            | 中等 | 数学推导+快速幂
 | [剑指 Offer 15. 二进制中1的个数](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_15HammingWeight.md)            | 简单 | 二进制操作
 | [剑指 Offer 16. 数值的整数次方](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_16MyPow.md)            | 简单 | 快速幂
+| [剑指 Offer 17. 打印从1到最大的n位数](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_17PrintNumbers.md)            | 简单 | 数学
+| [剑指 Offer 18. 删除链表的节点](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_18DeleteNode.md)            | 简单 | 链表-dummy节点使用
