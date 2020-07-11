@@ -32,3 +32,14 @@
         + ```git branch dev``` 创建分支 ```dev```
         + ```git checkout dev``` 切换分支到 ```dev```
     + 通过命令 ```git branch``` 查看当前分支
+2. ```git merge branch_name```
+    + 作用是将 ```branch_name``` 分支 合并到当前分支
+3. ```git branch -d branch_name```
+    + 删除分支
+4. ```git switch -c branch_name```：
+    + 创建并切换到 ```branch_name``` 分支
+5. ```git switch branch_name```：
+    + 切换到 ```branch_name``` 分支
+#### 解决冲突
+6. ```git log --graph```：
+    + 查看分支合并图
