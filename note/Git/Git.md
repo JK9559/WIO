@@ -16,3 +16,5 @@
     + 将回滚的内容再还原到当前的版本：需要找到某个版本的 ```commit id``` ，然后：```git reset --hard commit_id```
 7. ```git reflog```
     + 作用是查看命令历史，可以找到历史的 ```commit id``` 方便进行回滚
+8. ```git diff HEAD -- file_name```
+    + 比较变化：```git diff HEAD -- file_name```
