@@ -12,7 +12,7 @@
     + ```HEAD^``` 表示上一个版本
     + ```HEAD^^``` 表示上上一个版本
     + ```HEAD~100``` 表示上 100 个版本
-6. ```git reset```：
+6. ```git reset```
     + 将内容重置为上个版本：```git reset --hard HEAD^```
     + 将回滚的内容再还原到当前的版本：需要找到某个版本的 ```commit id``` ，然后：```git reset --hard commit_id```
     + 如果使用了 ```git add``` 添加了文件到 ```Stage```, 可以使用 ```git reset HEAD file_name``` 将存到暂存区的文件拿出来到工作区
@@ -26,7 +26,7 @@
     + 当修改后 ```git add``` 了，就是回滚到上次的 ```git add```
 
 ### 分支管理
-1. ```git checkout -b dev```：
+1. ```git checkout -b dev```
     + 表示创建并切换到 ```dev``` 分支
     + 相当于以下两条命令：
         + ```git branch dev``` 创建分支 ```dev```
@@ -36,12 +36,12 @@
     + 作用是将 ```branch_name``` 分支 合并到当前分支
 3. ```git branch -d branch_name```
     + 删除分支
-4. ```git switch -c branch_name```：
+4. ```git switch -c branch_name```
     + 创建并切换到 ```branch_name``` 分支
-5. ```git switch branch_name```：
+5. ```git switch branch_name```
     + 切换到 ```branch_name``` 分支
 #### 解决冲突
-6. ```git log --graph```：
+6. ```git log --graph```
     + 查看分支合并图
 7. ```git merge --no-ff -m 'merge branch' branch_name```：
     + 使用 ```--no-ff``` 之后 采用普通模式合并，合并后的历史有分支，能看出做过合并
@@ -53,4 +53,23 @@
 10. 查看 ```stash``` 的工作现场：```git stash list```
 11. 复原现场：```git stash pop```
 12. 丢弃一个没有合并的分支，使用 ```git branch -D <branch_name>``` 强制删除分支
-13. 
+13. 合并多个 commit:
+    + ```git reset <commit_id>``` 将 ```HEAD``` 移动到了 这个 ```commit_id``` 并且不会修改工作目录的数据。
+    + ```git add .```
+    + ```git commit -m '<message>'```
+#### 标签管理
+14. ```git tag <tagname>```
+    + 创建一个 ```tag``` ，默认在 ```HEAD``` 上创建，也可以指定一个 ```commit_id```：```git tag <tagname> commit_id```
+15. ```git tag -a <tagname> -m 'tag info'```
+    + 指定标签信息
+16. ```git tag``` 查看所有标签
+17. ```git tag -d <tagname>``` 标签删除
+18. ```git push origin <tagname>``` 推送标签到远程
+19. ```git push origin --tags``` 推送全部本地未推送的标签
+20. 删除推送到远程的标签：
+    + 先从本地删除：```git tag -d <tagname>```
+    + 再删除远程：```git push origin :refs/tags/<tagname>```
+#### ```git``` 规范
+1. 每个需求一个本地分支
+2. 每次提交备注标注提交时间，提交内容，尽量清晰
+3. 尽量减少 ```commit``` 次数，或者可以将多次 ```commit``` 合并为一次
