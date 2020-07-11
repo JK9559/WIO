@@ -14,7 +14,12 @@
 6. ```git reset```：
     + 将内容重置为上个版本：```git reset --hard HEAD^```
     + 将回滚的内容再还原到当前的版本：需要找到某个版本的 ```commit id``` ，然后：```git reset --hard commit_id```
+    + 如果使用了 ```git add``` 添加了文件到 ```Stage```, 可以使用 ```git reset HEAD file_name``` 将存到暂存区的文件拿出来到工作区
 7. ```git reflog```
     + 作用是查看命令历史，可以找到历史的 ```commit id``` 方便进行回滚
 8. ```git diff HEAD -- file_name```
     + 比较变化：```git diff HEAD -- file_name```
+9. ```git checkout -- file_name```
+    + 可以丢弃工作区的修改，回滚工作区到上一次 ```git commit``` 或者 ```git add```
+    + 当修改后没有 ```git add``` 就是回滚到上次的 ```git commit```
+    + 当修改后 ```git add``` 了，就是回滚到上次的 ```git add```
