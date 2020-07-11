@@ -43,3 +43,7 @@
 #### 解决冲突
 6. ```git log --graph```：
     + 查看分支合并图
+7. ```git merge --no-ff -m 'merge branch' branch_name```：
+    + 使用 ```--no-ff``` 之后 采用普通模式合并，合并后的历史有分支，能看出做过合并
+    + 不使用参数，默认用 ```fast forward``` 合并，无法看出曾经做过合并
+8. 
