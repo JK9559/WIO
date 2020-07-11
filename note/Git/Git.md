@@ -46,4 +46,11 @@
 7. ```git merge --no-ff -m 'merge branch' branch_name```：
     + 使用 ```--no-ff``` 之后 采用普通模式合并，合并后的历史有分支，能看出做过合并
     + 不使用参数，默认用 ```fast forward``` 合并，无法看出曾经做过合并
-8. 
+#### BUG分支
+8. ```git stash```
+    + 将工作现场存储起来，后续再用。
+9. 改完其他的文件。
+10. 查看 ```stash``` 的工作现场：```git stash list```
+11. 复原现场：```git stash pop```
+12. 丢弃一个没有合并的分支，使用 ```git branch -D <branch_name>``` 强制删除分支
+13. 
