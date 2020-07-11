@@ -1,3 +1,4 @@
+### 时光穿梭
 1. ```git add .```
     + 把要提交的修改放到暂存区 ```Stage```
 2. ```git commit -m 'commit files'```
@@ -23,3 +24,11 @@
     + 可以丢弃工作区的修改，回滚工作区到上一次 ```git commit``` 或者 ```git add```
     + 当修改后没有 ```git add``` 就是回滚到上次的 ```git commit```
     + 当修改后 ```git add``` 了，就是回滚到上次的 ```git add```
+
+### 分支管理
+1. ```git checkout -b dev```：
+    + 表示创建并切换到 ```dev``` 分支
+    + 相当于以下两条命令：
+        + ```git branch dev``` 创建分支 ```dev```
+        + ```git checkout dev``` 切换分支到 ```dev```
+    + 通过命令 ```git branch``` 查看当前分支
