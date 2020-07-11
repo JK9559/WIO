@@ -13,3 +13,5 @@
 | [剑指 Offer 13. 机器人的运动范围](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_13MovingCount.md)            | 中等 | 深度优先/广度优先-经典
 | [剑指 Offer 14-I. 剪绳子](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_14ICuttingRope.md)            | 中等 | dp/数学推导
 | [剑指 Offer 14-II. 剪绳子II](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_14IICuttingRope.md)            | 中等 | 数学推导+快速幂
+| [剑指 Offer 15. 二进制中1的个数](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_15HammingWeight.md)            | 简单 | 二进制操作
+| [剑指 Offer 16. 数值的整数次方](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_16MyPow.md)            | 简单 | 快速幂
