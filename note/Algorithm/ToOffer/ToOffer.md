@@ -17,3 +17,5 @@
 | [剑指 Offer 16. 数值的整数次方](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_16MyPow.md)            | 简单 | 快速幂 | :lollipop: :lollipop: :lollipop: :lollipop: :lollipop:
 | [剑指 Offer 17. 打印从1到最大的n位数](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_17PrintNumbers.md)            | 简单 | 数学 | :lollipop: :lollipop:
 | [剑指 Offer 18. 删除链表的节点](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_18DeleteNode.md)            | 简单 | 链表-dummy节点使用 | :lollipop: :lollipop: :lollipop: :lollipop: :lollipop:
+| [剑指 Offer 19. 正则表达式匹配](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_19IsMatch.md)            | 困难 | 正则/dp | :lollipop: :lollipop: :lollipop: :lollipop: :lollipop:
+| [剑指 Offer 20. 表示数值的字符串-待完成](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_20IsNumber.md)            | 中等 | 有限状态自动机 | :lollipop: :lollipop: :lollipop: :lollipop: :lollipop:
