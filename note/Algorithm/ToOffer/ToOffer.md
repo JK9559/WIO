@@ -25,5 +25,6 @@
 | [剑指 Offer 25. 合并两个排序的链表](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_25MergeTwoLists.md)            | 简单 | 链表-合并&dummy节点 | :lollipop: :lollipop: :lollipop: :lollipop: :lollipop:
 | [剑指 Offer 26. 树的子结构](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_26IsSubStructure.md)            | 简单 | 树遍历 | :lollipop: :lollipop: :lollipop: :lollipop:
 | [剑指 Offer 27. 二叉树的镜像](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_27MirrorTree.md)            | 简单 | 树翻转 | :lollipop: :lollipop: :lollipop: :lollipop: :lollipop:
-| [剑指 Offer 28. 对称的二叉树](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_28IsSymmetric.md)            | 简单 | 树对称 | :lollipop: :lollipop: :lollipop: :lollipop: :lollipop:
-| [剑指 Offer 29. 顺时针打印矩阵](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_29SpiralOrder.md)            | 简单 | 数组模拟 | :lollipop: :lollipop: :lollipop: :lollipop: :lollipop:
+| [剑指 Offer 28. 对称的二叉树](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_28IsSymmetric.md)            | 简单 | 树对称 | :lollipop: :lollipop: :lollipop: :lollipop:
+| [剑指 Offer 29. 顺时针打印矩阵](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_29SpiralOrder.md)            | 简单 | 数组模拟 | :lollipop: :lollipop: :lollipop: :lollipop:
+| [剑指 Offer 30. 包含min函数的栈](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_30MinStack.md)            | 简单 | 最小栈 | :lollipop: :lollipop: :lollipop: :lollipop:
