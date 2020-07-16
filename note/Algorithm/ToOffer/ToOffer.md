@@ -29,4 +29,4 @@
 | [剑指 Offer 29. 顺时针打印矩阵](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_29SpiralOrder.md)            | 简单 | 数组模拟 | :lollipop: :lollipop: :lollipop: :lollipop:
 | [剑指 Offer 30. 包含min函数的栈](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_30MinStack.md)            | 简单 | 最小栈 | :lollipop: :lollipop: :lollipop: :lollipop:
 | [剑指 Offer 31. 栈的压入、弹出序列](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_31ValidateStackSequences.md)            | 中等 | 栈 | :lollipop: :lollipop: :lollipop: :lollipop: :lollipop:
-| [剑指 Offer 32 - I. 从上到下打印二叉树](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_32ILevelOrder.md)            | 中等 | 树-BFS | :lollipop: :lollipop: :lollipop: :lollipop: :lollipop:
+| [剑指 Offer 32-I. 从上到下打印二叉树](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_32ILevelOrder.md)            | 中等 | 树-BFS | :lollipop: :lollipop: :lollipop: :lollipop: :lollipop:
