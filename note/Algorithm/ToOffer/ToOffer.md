@@ -31,4 +31,5 @@
 | [剑指 Offer 31. 栈的压入、弹出序列](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_31ValidateStackSequences.md)            | 中等 | 栈 | :lollipop: :lollipop: :lollipop: :lollipop: :lollipop:
 | [剑指 Offer 32-I. 从上到下打印二叉树](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_32LevelOrderI.md)            | 中等 | 树-BFS | :lollipop: :lollipop: :lollipop: :lollipop: :lollipop:
 | [剑指 Offer 32-II. 从上到下打印二叉树 II](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_32LevelOrderII.md)            | 中等 | 树-BFS | :lollipop: :lollipop: :lollipop: :lollipop: :lollipop:
-| [剑指 Offer 32-III. 从上到下打印二叉树 III](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_32LevelOrderIII.md)            | 中等 | 树-BFS | :lollipop: :lollipop: :lollipop: :lollipop: :lollipop:
+| [剑指 Offer 32-III. 从上到下打印二叉树 III](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_32LevelOrderIII.md)            | 中等 | 树-BFS | :lollipop: :lollipop: :lollipop: :lollipop:
+| [剑指 Offer 33. 二叉搜索树的后序遍历序列](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_33VerifyPostorder.md)            | 中等 | 二叉搜索树遍历 | :lollipop: :lollipop: :lollipop: :lollipop: :lollipop:
