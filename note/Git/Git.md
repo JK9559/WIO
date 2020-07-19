@@ -69,6 +69,16 @@
 20. 删除推送到远程的标签：
     + 先从本地删除：```git tag -d <tagname>```
     + 再删除远程：```git push origin :refs/tags/<tagname>```
+#### ```rebase``` 也可以用作代码的合并
+21. ```git rebase <branch>``` 将其他分支合并到当前分支
+#### ```cherry-pick``` 选择一个 ```commit``` 合并到当前分支
+22. ```git cherry-pick <commit-id>``` 
+23. 常用 ```options``` ：
+    + ```--quit```                退出当前的 ```chery-pick``` 序列
+    + ```--continue```            继续当前的 ```chery-pick``` 序列
+    + ```--abort```               取消当前的 ```chery-pick``` 序列，恢复当前分支
+    + ```-n, --no-commit```       不自动提交
+    + ```-e, --edit```            编辑提交信息
 #### ```git``` 规范
 1. 每个需求一个本地分支
 2. 每次提交备注标注提交时间，提交内容，尽量清晰
