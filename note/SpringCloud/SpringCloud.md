@@ -1,0 +1,1 @@
+1. Spring Cloud Hystrix 基于 Netflix Hystrix 实现，具备服务降级、服务熔断、线程与信号隔离、请求缓存、请求合并以及服务监控等强大功能。
