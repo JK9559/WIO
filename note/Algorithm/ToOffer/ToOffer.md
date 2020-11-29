@@ -34,3 +34,4 @@
 | [剑指 Offer 32-III. 从上到下打印二叉树 III](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_32LevelOrderIII.md)            | 中等 | 树-BFS | :lollipop: :lollipop: :lollipop: :lollipop:
 | [剑指 Offer 33. 二叉搜索树的后序遍历序列](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_33VerifyPostorder.md)            | 中等 | 二叉搜索树遍历 | :lollipop: :lollipop: :lollipop: :lollipop: :lollipop:
 | [剑指 Offer 34. 二叉树中和为某一值的路径](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_34PathSum.md)            | 中等 | DFS | :lollipop: :lollipop: :lollipop: :lollipop:
+| [剑指 Offer 35. 复杂链表的复制](https://github.com/JK9559/WIO/blob/master/note/Algorithm/ToOffer/lcof_35CopyRandomList.md)            | 中等 | 哈希 | :lollipop: :lollipop: :lollipop: :lollipop:
